@@ -1,0 +1,30 @@
+An ArrayList is a dynamic data structure, meaning items can be added and removed from the list. 
+A normal array in java can't do that because your stuck with the initial size of your array. 
+
+A linked list is a linear collection of data elements, called nodes pointing to the next node by means of a pointer.
+
+DIFFERENCES
+ArrayList search operation is pretty fast compared to the LinkedList search operation.
+ArrayList is better for storing and accessing data while LinkedList is better for manipulating data.
+
+Iterator also allows you to remove elements from collection during traversal but Enumeration doesn't allow that, it doesn't got the remove() method. 
+Enumeration is also a legacy class and collections such as Vector supports Enumeration but ArrayList doesn't.
+
+Hashmaps and hashtables are data structures(like arrays and lists), that use hashing to store data.
+Hashmap is not Synchronized. Hastable is synchronized.
+
+What is the difference between creating String as new() and literal?
+When creating a string with new() Operator, it’s created in heap and not added into string pool while String created using literal are created in String pool.
+
+What do you understand by thread-safety ? Why is it required ? And finally, how to achieve thread-safety in Java Applications ? 
+I dont really know much about that but I do know that Java Memory Model defines the legal interaction of threads with the memory in a real computer system.
+ In a way, it describes what behaviors are legal in multi-threaded code. 
+
+What will happen if you call return statement or System.exit on try or catch block ? will finally block execute?
+The finally block will still run if you call a return statement but if you put System.exit in the try or catch block, it wont run.
+ 
+Can you override private or static method in Java ? 
+NO, you cant. if you create similar method with same return type and same method arguments that's called method hiding.
+
+Can you access non static variable in static context? 
+NO. You can not access static variable in non static context in Java. 
