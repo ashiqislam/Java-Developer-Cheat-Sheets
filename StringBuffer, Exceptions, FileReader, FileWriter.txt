@@ -1,0 +1,36 @@
+What is the difference between STRINGBUFFER and STRING?
+•	String object is immutable.
+•	StringBuffer/StringBuilder objects are mutable.
+
+Method overriding is declaring a method in a subclass which is already present in the parent class.
+Overloading is a feature that allows a class to have two or more methods to have the same name.
+
+An interface is a reference type, its a collection of abstract methods. 
+A class implements an interface, thereby inheriting the abstract methods of the interface.
+
+Constructor is a special member of a class which is used to create the objects to the class using the new keyword.
+ A constructor with no argument is known as default constructor in java.
+
+What is Checked Exception in Java?
+Checked Exception in Java are Exceptions which requires being catches and handled during compile time. 
+If Compiler doesn’t see try or catch block handling a Checked Exception, it throws a Compilation error. –Example IOexception
+
+
+What is Unchecked Exception in Java? 
+Unchecked Exception in Java are Exceptions whose handling is not verified during Compile time. Unchecked Exceptions mostly arise due to 
+programming errors like accessing method of a null object, accessing element outside an array bonding or invoking method with illegal arguments.  
+–example ArrayIndexOutOfBounds exception
+
+A difference between Checked and UnChecked Exception is that checked Exception requires mandatory try catch or try finally block 
+but unchecked Exception don't.
+
+FileInputStream contains the input byte from a file and implements an input stream.
+FileOutputStream uses for writing data to a file and also implements an output stream.
+
+FileReader : The FileReader class makes it possible to read the contents of a file as a stream of characters. 
+It works much like the FileInputStream, except the FileInputStream reads bytes, whereas the FileReader reads characters.
+
+FileWriter : This class is used to write to character files. Creation of a FileWriter is not dependent on the file already existing. 
+
+
+
