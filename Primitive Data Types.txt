@@ -1,0 +1,35 @@
+JVM, or the Java Virtual Machine, is an interpreter which accepts ‘Bytecode’ and executes it. 
+Java has been termed as a ‘Platform Independent Language’ as it primarily works on the notion of ‘compile once, run everywhere’.
+
+•	The Java Compiler outputs Non-Executable Codes called ‘Bytecode’.
+•	Bytecode is a highly optimized set of computer instruction which could be executed by the Java Virtual Machine (JVM).
+
+“JDK” stands for Java Development Kit. The JDK is a bundle of software that is used to develop Java based software.
+ “JRE” stands for the Java Runtime Environment. The JRE is an implementation of the Java Virtual Machine which actually executes Java programs.
+
+Int data type is a 32-bit signed two's complement integer. For whole numbers.
+•	Min value is -2,147,483,647).(-2^31)
+•	Maximum value is 2,147,483,647(inclusive).(2^31 -1)
+
+Double data type is a double-precision 64-bit standard floating point. (IEEE 754)
+•	This data type is generally used as the default data type for decimal values, generally the default choice.
+
+Short data type is a 16-bit signed two's complement integer. Used to save space like byte.
+•	Minimum value is -32,768 (-2^15)
+•	Maximum value is 32,767 (inclusive) (2^15 -1)
+
+Byte data type is an 8-bit signed two's complement integer. Used to save space in large arrays.
+•	Minimum value is -128 (-2^7)
+•	Maximum value is 127 (inclusive)(2^7 -1)
+
+Long data type is a 64-bit signed two's complement integer. For longer numbers than ints.
+•	Minimum value is -9,223,372,036,854,775,808.(-2^63)
+•	Maximum value is 9,223,372,036,854,775,807 (inclusive). (2^63 -1)
+
+Strings is a data type that can hold a sequence of characters.
+Boolean holds either True or False.
+
+DIFFERENCE BETWEEN A CLASS, METHOD AND OBJECT.
+A class is a construct that defines a collection of properties and methods. 
+A method is a set of code which is referred to by name and can be called.
+Objects are instances of a class.
