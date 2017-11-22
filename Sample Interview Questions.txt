@@ -1,0 +1,53 @@
+JVM, or the Java Virtual Machine, is an interpreter which accepts ‘Bytecode’ and executes it. 
+Java has been termed as a ‘Platform Independent Language’ as it primarily works on the notion of ‘compile once, run everywhere’. Here’s a sequential step establishing the Platform independence feature in Java:
+•	The Java Compiler outputs Non-Executable Codes called ‘Bytecode’.
+•	Bytecode is a highly optimized set of computer instruction which could be executed by the Java Virtual Machine (JVM).
+
+“JDK” stands for Java Development Kit. The JDK is a bundle of software that is used to develop Java based software.
+“JRE” stands for the Java Runtime Environment. The JRE is an implementation of the Java Virtual Machine which actually executes Java programs.
+
+What is the difference between STRINGBUFFER and STRING?
+•	String object is immutable.
+•	StringBuffer/StringBuilder objects are mutable.
+
+Polymorphism allows an entity such as a variable, a function, or an object to have more than one form.
+
+Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit.
+
+Abstraction is the process of abstraction in Java is used to hide certain details and only show the essential features of the object.
+
+Inheritance allows a class to use the properties and methods of another class.
+
+Overriding is declaring a method in subclass which is already present in the parent class.
+Overloading is a feature that allows a class to have two or more methods having same name.
+
+Constructor is a block of code, which runs when you use new keyword in order to instantiate an object.
+A constructor with no argument is known as default constructor in java.
+
+What is Checked Exception in Java?
+Checked Exception in Java is all those Exception which requires being catches and handled during compile time. If Compiler doesn’t see try or catch block handling a Checked Exception, it throws a Compilation error. –Example IOexception
+
+
+What is Unchecked Exception in Java? 
+Unchecked Exception in Java is those Exceptions whose handling is not verified during Compile time. Unchecked Exceptions mostly arise due to programming errors like accessing method of a null object, accessing element outside an array bonding or invoking method with illegal arguments.  –example ArrayIndexOutOfBounds exception
+A difference between Checked and UnChecked Exception is that checked Exception requires mandatory try catch or try finally block but unchecked Exception don't.
+
+FileInputStream contains the input byte from a file and implements an input stream.
+FileOutputStream uses for writing data to a file and also implements an output stream.
+
+FileReader : The FileReader class makes it possible to read the contents of a file as a stream of characters. It works much like the FileInputStream, except the FileInputStream reads bytes, whereas the FileReader reads characters.
+FileWriter : This class is used to write to character files. Creation of a FileWriter is not dependent on the file already existing. 
+
+int c;
+FileReader fread = new FileReader("xanadu.txt");
+FileWriter fwrite = new FileWriter("characteroutput.txt");
+while ((c = fread.read()) != -1)
+       fwrite.write(c);
+
+An ArrayList is a dynamic data structure, meaning items can be added and removed from the list. A normal array in java is a static data structure, because you stuck with the initial size of your array. 
+In computer science, a linked list is a linear collection of data elements, called nodes pointing to the next node by means of a pointer.
+ArrayList search operation is pretty fast compared to the LinkedList search operation.
+ArrayList is better for storing and accessing data while LinkedList is better for manipulating data.
+Iterator also allows you to remove elements from collection during traversal but Enumeration doesn't allow that, it doesn't got the remove() method. Enumeration is also a legacy class and not all Collection supports it e.g. Vector supports Enumeration but ArrayList doesn't.
+
+
